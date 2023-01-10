@@ -1,0 +1,100 @@
+.nav{
+    background-color: #823213;
+}
+.nav span{
+    color: #fff;
+}
+
+.main{
+    height: 90vh;
+    /* talan */
+}
+.menu {
+
+    width: 30%;
+
+}
+.menu .sidbar{
+    margin: auto;
+    width: 50%;
+}
+.menu .sidbar a{
+
+    width: 80%;
+}
+.menu .sidbar a:hover{
+    transition: 0.5s;
+    color: #d11706;
+    font-size: 2rem;
+}
+.button{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #823213;
+    font-weight: 500;
+}
+.graficons {
+    width: 70%;
+}
+.textTitle{
+    color: #823213;
+}
+a{
+    text-decoration: none;
+    color: #823213;
+}
+.formbutton{
+    color: #fff;
+    background-color: #823213;
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: none;
+}
+/* user */
+.user .userContainer{
+    width: 60%;
+    
+}
+.header{
+    background: #b3461c;
+    color: #fff;
+}
+.user .table{
+    text-align: center;
+}
+
+/* food */
+.food .foodContainer{
+    width: 70%;
+}
+.food .img{
+    height: 60px;
+    width: 60px;
+}
+/* reservation */
+.reservation .reservationContainer{
+width: 60%;
+}
+.reservation .table{
+    text-align: center;
+}
+/* cheff */
+.chef .chefContainer{
+    width: 70%;
+}
+.chef .img{
+    height: 60px;
+    width: 60px;
+}
+/* order */
+.order .orderContainer{
+    width: 80%;
+}
+#searchInput{
+    background-color: #823213;
+    color: #fff;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,260 @@
+/* navbar */
+.navbar-brand .color {
+    color: #823213;
+}
+.card {
+    padding: 10px 20px;
+    color: #823213;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.textTitle {
+    color: #823213;
+    text-decoration: underline;
+}
+/* user page */
+.user .userContainer {
+    margin: 0 auto;
+    width: 80%;
+}
+.user .usertitle {
+    color: #823213;
+}
+.user .header {
+    background-color: #823213;
+}
+.user .userContainer .mainform {
+    width: 75%;
+}
+.user .userContainer .deleteform {
+    width: 25%;
+}
+.user .userContainer a {
+    color: #823213;
+
+    text-decoration: none;
+}
+
+.user .userContainer .submitButton {
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #823213;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* indexpage */
+.indexpage {
+    height: 90vh;
+}
+.indexpage .Container {
+    height: 100%;
+    width: 100%;
+}
+.indexpage .Container .left {
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+}
+.indexpage .Container .left .leftContainer {
+    width: 50%;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.indexpage .Container .left .leftContainer .description {
+    font-size: 1.2rem;
+}
+.indexpage .Container .left .leftContainer span {
+    color: #823213;
+}
+.indexpage .Container .left .leftContainer .CTA {
+    background-color: #823213;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.indexpage .Container .right {
+    width: 55%;
+    height: 70%;
+    background-image: url("/pageimage/index.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .indexpage .Container {
+        flex-direction: column;
+    }
+    .indexpage .Container .left {
+        width: 100%;
+        height: 100%;
+    }
+    .indexpage .Container .right {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* foodpage */
+.foodContainer {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.foodContainer .menuContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foodContainer img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+}
+.foodContainer .text {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background-color: #823213;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.foodContainer .text:hover {
+    opacity: 1;
+}
+.foodContainer .img {
+    border: #823213 3px solid;
+    border-radius: 15px;
+}
+
+.foodContainer .button {
+    display: flex;
+    justify-content: center;
+}
+.foodContainer .button .submit {
+    color: #fff;
+    background-color: #823213;
+    padding: 5px 15px;
+    border: none;
+    font-weight: 800;
+}
+.foodContainer .button input{
+    padding: 5px;
+    border: 2px solid #823213;
+    border-radius: 5px;
+}
+/* reservation */
+.reservationContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.reservationContainer .reservationContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+.reservationContainer .image {
+    width: 150%;
+    height: 70vh;
+    background-image: url("/pageimage/reservation.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.reservationContainer .reservationTitle{
+    width: 80%;
+text-align: center;
+    color: #823213;
+    text-transform: capitalize;
+}
+
+.reservationContainer .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    flex-direction: row;
+    height: 70%;
+    flex-wrap: wrap;
+}
+.reservationContainer .form .col{
+    max-width: 200px;
+}
+.reservationContainer .form .messagge{
+    max-width: 400px;
+}
+.reservationContainer .form .submitButton{
+    display: flex;
+    justify-content: center;
+}
+.reservationContainer label {
+    color: #823213;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.reservationContainer input {
+    border: #823213 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.reservationContainer textarea {
+    border: #823213 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.reservationContainer .button {
+    color: #fff;
+    background-color: #823213;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+}
+.reservationContent .colcolumn{
+    display: flex;
+    flex-direction: column;
+}
+/* chef */
+.chefContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.chefContainer .mainConainer{
+    display: flex;
+    justify-content: center;
+    gap: 0 10px ;
+}
+.chefContainer .mainConainer .item{
+    border: #823213 solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #823213;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
